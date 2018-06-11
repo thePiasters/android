@@ -1,0 +1,38 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/view2"
+    android:layout_height="match_parent"
+    tools:context="com.example.lordmordulec.geo.Fragments.ResultListFragment">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <Button
+            android:text="Wyświetl najlepszy wynik dla wybranego kontynentu: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="showPopup"/>
+
+        <TextView
+            android:id = "@+id/wynik"
+            android:text=""
+            android:textSize="20dp"
+            android:paddingTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

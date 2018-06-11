@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id = "@+id/afryka"
+        android:title="@string/afryka"
+        app:showAsAction="always|withText">
+
+    </item>
+
+    <item android:id = "@+id/azja"
+        android:title="@string/azja"
+        app:showAsAction="always|withText">
+
+    </item>
+
+    <item android:id = "@+id/amerykaN"
+        android:title="@string/amerykan"
+        app:showAsAction="always|withText">
+
+    </item>
+
+    <item android:id = "@+id/amerykaW"
+        android:title="@string/amerykaw"
+        app:showAsAction="always|withText">
+    </item>
+
+    <item android:id = "@+id/europa"
+        android:title="@string/europa"
+        app:showAsAction="always|withText">
+
+    </item>
+
+    <item android:id = "@+id/australia"
+        android:title="@string/australia"
+        app:showAsAction="always|withText">
+
+    </item>
+
+</menu>

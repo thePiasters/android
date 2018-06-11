@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Geo</string>
+    <string name="title_activity_countries">CountriesActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="start">Start</string>
+    <string name="exit">Wyjdź z gry</string>
+    <string name="again">Dalej</string>
+    <string name="afryka">Afryka</string>
+    <string name="amerykan">Ameryka Północna</string>
+    <string name="amerykaw">Ameryka Południowa</string>
+    <string name="azja">Azja</string>
+    <string name="australia">Australia</string>
+    <string name="europa">Europa</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

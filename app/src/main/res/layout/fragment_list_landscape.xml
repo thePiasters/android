@@ -1,0 +1,165 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/view2"
+    android:layout_height="match_parent"
+    tools:context="com.example.lordmordulec.geo.Fragments.ResultListFragment">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+
+
+            <TableLayout tools:ignore="UselessLeaf"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:paddingTop="20dp">
+                <TableRow>
+
+                    <TextView
+                        android:textSize="20dp"
+                        android:paddingTop="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Ameryka Południowa  ">
+
+                    </TextView>
+                    <TextView
+                        android:id="@+id/AmerykaW"
+                        android:textSize="20dp"
+                        android:paddingTop="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Brak rekordu">
+
+                    </TextView>
+
+                    <TextView
+                        android:textSize="20dp"
+                        android:paddingTop="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="  Azja   ">
+
+                    </TextView>
+                    <TextView
+                        android:id="@+id/Azja"
+                        android:textSize="20dp"
+                        android:paddingTop="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Brak rekordu">
+
+                    </TextView>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="20dp"
+                        android:paddingTop="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text=" Ameryka Północna  ">
+
+                    </TextView>
+                    <TextView
+                        android:id="@+id/AmerykaN"
+                        android:textSize="20dp"
+                        android:paddingTop="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Brak rekordu">
+
+                    </TextView>
+
+                    <TextView
+
+                        android:textSize="20dp"
+                        android:paddingTop="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text=" Europa">
+
+                    </TextView>
+                    <TextView
+                        android:id="@+id/Europa"
+                        android:textSize="20dp"
+                        android:paddingTop="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Brak rekordu">
+
+                    </TextView>
+
+                </TableRow>
+
+                <TableRow android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingTop="20dp"
+                        android:text="Afryka  "
+                        android:textSize="20dp">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/Afryka"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingTop="20dp"
+                        android:text="Brak rekordu"
+                        android:textSize="20dp">
+
+                    </TextView>
+
+                    <TextView
+
+                        android:textSize="20dp"
+                        android:paddingTop="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text=" Australia  ">
+
+                    </TextView>
+                    <TextView
+                        android:id="@+id/Australia"
+                        android:textSize="20dp"
+                        android:paddingTop="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Brak rekordu">
+
+                    </TextView>
+
+                </TableRow>
+            </TableLayout>
+
+
+
+
+            <CheckBox
+                        android:id="@+id/checkBox2"
+                        android:paddingTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Wyświetl mój wynik" />
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

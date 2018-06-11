@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="all">
+        <item android:id ="@+id/pozycja1"
+            android:orderInCategory="1"
+            android:title="Afryka">
+
+        </item>
+        <item android:id ="@+id/pozycja2"
+            android:orderInCategory="1"
+            android:title="Ameryka Północ">
+
+        </item>
+        <item android:id ="@+id/pozycja3"
+            android:orderInCategory="1"
+            android:title="Ameryka Południowa">
+
+        </item>
+        <item android:id ="@+id/pozycja4"
+            android:orderInCategory="1"
+            android:title="Europa">
+
+        </item>
+        <item android:id ="@+id/pozycja5"
+            android:orderInCategory="1"
+            android:title="Azja">
+
+        </item>
+        <item android:id ="@+id/pozycja6"
+            android:orderInCategory="1"
+            android:title="Australia">
+
+        </item>
+    </group>
+
+</menu>
